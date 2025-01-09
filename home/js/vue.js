@@ -1,10 +1,10 @@
 const app = Vue.createApp({
-   data() {
+  data() {
     return {
-     message: "Hello sf231 World!",
+      message: "Hello, Vue!",
       vueClass: "pinkBG"
-    }
-   }
-  })
-  
-  app.mount('#app')
+    };
+  }
+});
+
+app.mount('#app');
