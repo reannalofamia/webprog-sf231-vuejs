@@ -10,8 +10,8 @@
   export default {
     data() {
       return {
-        name: 'Apples',
-        message: 'I like apples',
+        name: 'Banana',
+        message: 'I like Bananas',
         clicks: 0
       }
     },
@@ -30,7 +30,7 @@
     width: 120px;
     margin: 10px;
     padding: 10px;
-    background-color: lightgreen;
+    background-color: yellow;
   }
   
   #app > div:hover {
